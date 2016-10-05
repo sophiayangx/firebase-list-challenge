@@ -12,7 +12,9 @@ onNewListItem("sophiasList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
 
-clearButton.click(function() {	
+clearButton.click(function(e) {	
+ if {
   deleteValue("sophiasList");
   $("#list-display").empty("<div>" + value + "</div>")
+ }
 })
