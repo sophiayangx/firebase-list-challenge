@@ -8,8 +8,10 @@ input.keydown(function(e) {
   }
 })
 
-clearButton.click(function() {	
-  deleteValue("sophiasList")
+clearButton.click(function(e) {	
+  if (e.keyCode == "13") {
+  deleteValue("sophiasList");
+  }
 })
 
 onNewListItem("sophiasList", function(value) {
