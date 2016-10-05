@@ -10,7 +10,7 @@ input.keydown(function(e) {
 
 clearButton.click(function(e) {	
   if (e.keyCode == "13") {
-  deleteValue("sophiasList");
+  deleteValue("sophiasList", value);
   }
 })
 
