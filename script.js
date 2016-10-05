@@ -8,8 +8,10 @@ input.keydown(function(e) {
   }
 })
 
+
 clearButton.click(function(e) {	
-  deleteValue("sophiasList", value);
+  var value = input.val();
+  deleteValue("sophiasList");
 })
 
 onNewListItem("sophiasList", function(value) {
