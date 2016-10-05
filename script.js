@@ -8,7 +8,7 @@ input.keydown(function(e) {
   }
 })
 
-clearButton.click(function(e) {	
+clearButton.click(function() {	
   deleteValue("sophiasList")
 })
 
