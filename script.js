@@ -13,8 +13,6 @@ onNewListItem("sophiasList", function(value) {
 }) 
 
 clearButton.click(function(e) {	
- if {
   deleteValue("sophiasList");
-  $("#list-display").empty("<div>" + value + "</div>")
- }
+  $("#list-display").empty()
 })
