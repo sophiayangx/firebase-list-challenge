@@ -1,6 +1,5 @@
+var input = $("#new-item-input")
 
-var input = $("")
-console.log("df")
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
@@ -8,6 +7,6 @@ input.keydown(function(e) {
   }
 })
 
-onNewListItem("davidsList", function(value) {
+onNewListItem("sophiasList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
