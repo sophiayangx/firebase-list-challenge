@@ -8,11 +8,11 @@ input.keydown(function(e) {
   }
 })
 
-
-clearButton.click(function() {	
-  deleteValue("sophiasList");
-})
-
 onNewListItem("sophiasList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
+
+clearButton.click(function() {	
+  deleteValue("sophiasList");
+  $("#list-display").empty("<div>" + value + "</div>")
+})
