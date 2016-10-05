@@ -7,6 +7,6 @@ input.keydown(function(e) {
   }
 })
 
-onNewListItem("sophiasList", function(value) {
+onNewListItem("sophiasList", function(valueToSave) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
