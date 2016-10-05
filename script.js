@@ -1,5 +1,6 @@
-var input = $("")
 
+var input = $("")
+console.log("df")
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
