@@ -16,3 +16,7 @@ clearButton.click(function(e) {
   deleteValue("sophiasList");
   $("#list-display").empty()
 })
+
+function() {
+  document.getElementById("myCheck").click();
+}
