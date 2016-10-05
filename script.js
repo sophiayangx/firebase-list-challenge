@@ -9,7 +9,7 @@ input.keydown(function(e) {
 })
 
 clearButton.click(function(e) {	
-  deleteValue("sophiasList", valueToSave)
+  deleteValue("sophiasList")
 })
 
 onNewListItem("sophiasList", function(value) {
