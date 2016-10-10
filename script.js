@@ -17,6 +17,3 @@ clearButton.click(function(e) {
   $("#list-display").empty()
 })
 
-function() {
-  document.getElementById("myCheck").click();
-}
